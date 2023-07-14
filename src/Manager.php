@@ -2,7 +2,7 @@
 
     namespace PHP\Composer\Library;
 
-    class Customer {
+    class Manager {
 
         private string $name;
 
