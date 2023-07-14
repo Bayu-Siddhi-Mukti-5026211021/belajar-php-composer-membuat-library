@@ -10,7 +10,7 @@
             $this->name = $name;
         }
 
-        public function sayHello(string $name) : void {
+        public function sayHello(string $name = "Guest") : void {
             echo "Hello $name, my name is customer {$this->name}" . PHP_EOL;
         }
     }
